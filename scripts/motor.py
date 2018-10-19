@@ -4,13 +4,13 @@ import sys,math
 
 import rospy
 
-from raspimouse_ros.srv import PutMotorFreqs
+from raspimouse_ros_2.srv import PutMotorFreqs
 
-from raspimouse_ros.srv import SwitchMotors
+from raspimouse_ros_2.srv import SwitchMotors
 
-from raspimouse_ros.msg import MotorFreqs
+from raspimouse_ros_2.msg import MotorFreqs
 
-from geometry_msgs.msg import Twist
+from geometry_msgs_2.msg import Twist
 
 from std_msgs.msg import Bool
 

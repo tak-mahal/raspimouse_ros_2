@@ -4,7 +4,7 @@ import sys
 
 import rospy
 
-from raspimouse_ros.msg import Switches
+from raspimouse_ros_2.msg import Switches
 
 
 
